@@ -1,0 +1,29 @@
+Treba pripremiti mini web aplikaciju. Ona mora biti napravljena na AngularJS ili Vue.js. Koristiti zadnje verzije.
+Za dohvat podataka treba korisiti API: https://api.chucknorris.io/
+
+Web aplikacija mora imati 3 stranice: Početna, kategorije i pretraga.
+
+Početna
+
+Stranica se sastoji od liste šala i buttona "Učitaj još".
+
+Pri učitavanju stranice, na listi šala treba biti prikazana samo jedna nasumična šala.
+
+Klikom na button se na listu dodaje još jedna nasumična šala. Zadnje dodana šala se mora prikazivati prva na listi.
+
+Kategorije
+
+Stranica se sastoji od liste šala i liste kategorija.
+Pri učitavnja stranice prikazane su samo kategorije.
+Klikom na jednu od kategorija se na listu šala dodaje nasumična šala iz te kategorije. Zadnje dodana se mora prikazivati prva u listi.
+
+Pretraga
+
+Stranica se sastoji od liste šala i polja za unos texta.
+Pri učitavanju stranice lista šala treba biti prazna.
+Prilikom unosa texta u polje treba pretraživati šale i prikazati na listi prvih 10 šala koje vraća API.
+
+Općenito
+
+Klikom na pojedinu šalu se ista briše s liste.
+
